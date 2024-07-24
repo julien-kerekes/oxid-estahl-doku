@@ -136,19 +136,36 @@ Der Expressversand innerhalb der EU bietet Sich als erste Versandkostenregel an,
 6. Dies ist eine explizite Regel mit nur einer Bedingung. Deshalb brauchen Sie hier **keine weiteren nach dieser Regel berechnen**.
 7. Da dies eine EU-spezifische Regel ist, fügen Sie über die Schaltfläche **Länder hinzufügen** alle EU-Länder hinzu, in die Sie per Express liefern möchten.
 
+### Übersicht der Versandkostenregeln
 
+Haben Sie nun den Rest der Regeln angelegt, sollte dies in etwa so aussehen:
+
+![Fertige Versandkostenregeln](media/fertige-versandkostenregeln.png)
+
+Die spezifischen Versandkostenregeln wie *Express EU* und *Kostenlos EU* liegen am Anfang der Liste. Diese Regeln stehen alleine, denn sollten die Bedingungen für diese Regeln erfüllt sein, werden in beiden Fällen **keine weiteren Regeln nach dieser berechnet**.
+
+Für den weltweiten Versand hingegen wird Ihnen vielleicht aufgefallen sein, dass dies mit *einer* Regel nicht zu bewältigen ist. Hier müssen Sie tatsächlich **zwei Regeln** anlegen. Die erste Regel berechnet dann 400€ Versand pro Artikel und wird **nicht abgebrochen**. Die zweite Regel fügt den Aufschlag von 1000€ hinzu, der vorgegeben war, und berechnet **erst dann** keine weiteren Regeln mehr.
+
+Als letztes gibt es wieder ein Konstrukt von zwei Regeln, und zwar den Standardversand innerhalb der EU. Auf diese Berechnung wird erst zurückgefallen, wenn:
+* der Versand **nicht über Express** gewählt wird,
+* der Warenkorb **nicht über 2000kg** liegt, und demnach nicht kostenlos ist,
+* und der Versand **nicht die EU verlässt**.
+
+Sollten diese Regeln nicht zugreifen, bleibt also nur noch der Standard-EU Versand. Dieser berechnet 200€ Versand für jeden Artikel der **weniger als 1000kg wiegt (Teil 1)** und 100€ Versand für jeden Artikel der **genau 1000kg wiegt (Teil 2)**.
+
+Dies deckt alle Möglichkeiten ab, die in diesem Beispiel behandelt werden sollten.
 
 ## Versandarten mit Versandkostenregeln verknüpfen
 
 Haben Sie nun auf diese Weise alle Versandkostenregeln erstellt, müssen Sie als letzten Schritt noch einmal zu **Shopeinstellungen > Versandarten** navigieren.
 Hier weisen Sie die erstellten Versandkostenregeln zu den dafür vorgesehen Versandarten zu. 
 
-![Versandarten mit Versandkostenregeln verknüpfen](media\versandart-mit-regel-verknuepfen.gif)
+![Versandarten mit Versandkostenregeln verknüpfen](media/versandart-mit-regel-verknuepfen.gif)
 
 ## Im Shop testen
 
 Fertig! Nun können Sie mit **geeigneten Warenkörben** das Ganze in der Benutzeroberfläche Ihres OXID eShops einmal testen. 
 
-![Expressversand im Kassenvorgang ausgewählt](media\beispiel-kasse.png)
+![Expressversand im Kassenvorgang ausgewählt](media/beispiel-kasse.png)
 
 Wie Sie anhand des Bildschirmfotos sehen können, liegen momentan **zwei Artikel** im Warenkorb. Der Expressversand ist  für EU-Bestellungen im Shop auswählbar und berechnet korrekterweise 300€ Versand pro Artikel, also **600€ Gesamt**.

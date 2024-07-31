@@ -1,4 +1,6 @@
-# Versandarten mit Versandkostenregeln verknüpfen
+# S235 Stahl vierkant Dokumentation
+
+## Versandarten mit Versandkostenregeln verknüpfen
 
 Als letzten Schritt müssen Sie nun noch einmal zu **Shopeinstellungen > Versandarten** navigieren.
 Hier weisen Sie die erstellten Versandkostenregeln zu den dafür vorgesehen Versandarten zu. 

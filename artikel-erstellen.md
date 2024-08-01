@@ -15,7 +15,7 @@ In diesem Fall bekommt der Artikel noch keinen Preis zugewiesen, da dieser im n�
 
 ### Varianten
 
-Klicken Sie nun auf den Reiter **Varianten** und definieren dort Ihre vier Varianten f체r den Artikel, n채mlich **100kg, 200kg, 500kg und 1000kg**. Geben Sie den Varianten aussagekr채ftige Namen, eine Artikelnummer, sinnvolle Preise, und tragen Sie die Lagerst채nde ein.
+Klicken Sie nun auf den Reiter **Varianten** und definieren dort Ihre vier Varianten f체r den Artikel, n채mlich **100 kg, 200 kg, 500 kg und 1000 kg**. Geben Sie den Varianten aussagekr채ftige Namen, eine Artikelnummer, sinnvolle Preise, und tragen Sie die Lagerst채nde ein.
 
 ![Varianten anlegen](/media/varianten.gif)
 

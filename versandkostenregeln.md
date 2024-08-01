@@ -23,7 +23,7 @@ Der Expressversand innerhalb der EU bietet sich als erste Versandkostenregel an,
 2. Setzen Sie die Regel auf **Immer aktiv**, sofern Sie keinen spezifischen Zeitraum vorsehen.
 3. Da das Gewicht bei dieser Pauschal-Regel keine Rolle spielt, können Sie die Bedingung auf **min. 1 Artikel** setzen.
 **Wichtig:** Füllen Sie auch das zweite Feld der Bedingung aus, sonst ist die Bedingung nichtig! 
-4. Der Preisaufschlag liegt bei 300€ pro Artikel. Dieser wird **absolut**, also in €, angegeben, nicht prozentual.
+4. Der Preisaufschlag liegt bei 300 € pro Artikel. Dieser wird **absolut**, also in Euro angegeben, nicht prozentual.
 5. Für die Reihenfolge bietet es sich an, die Regeln mit **etwas größeren Abständen** anzulegen. Auf diese Weise können Sie bei Bedarf weitere Regeln vor und hinter dieser Regel hinzufügen.
 
 ## Übersicht der Versandkostenregeln
@@ -34,14 +34,14 @@ Haben Sie nun den Rest der Regeln angelegt, sollte dies in etwa so aussehen:
 
 Die spezifischen Versandkostenregeln wie *Express EU* und *Kostenlos EU* liegen am Anfang der Liste. Diese Regeln stehen alleine, denn sollten die Bedingungen für diese Regeln erfüllt sein, werden in beiden Fällen **keine weiteren Regeln nach dieser berechnet**.
 
-Für den weltweiten Versand hingegen wird Ihnen vielleicht aufgefallen sein, dass dies mit *einer* Regel nicht zu bewältigen ist. Hier müssen Sie tatsächlich **zwei Regeln** anlegen. Die erste Regel berechnet dann 400€ Versand pro Artikel und wird **nicht abgebrochen**. Die zweite Regel fügt den Aufschlag von 1000€ hinzu, der vorgegeben war, und berechnet **erst dann** keine weiteren Regeln mehr.
+Für den weltweiten Versand hingegen wird Ihnen vielleicht aufgefallen sein, dass dies mit *einer* Regel nicht zu bewältigen ist. Hier müssen Sie tatsächlich **zwei Regeln** anlegen. Die erste Regel berechnet dann 400 € Versand pro Artikel und wird **nicht abgebrochen**. Die zweite Regel fügt den Aufschlag von 1000 € hinzu, der vorgegeben war, und berechnet **erst dann** keine weiteren Regeln mehr.
 
 Als letztes gibt es wieder ein Konstrukt von zwei Regeln, und zwar den Standardversand innerhalb der EU. Auf diese Berechnung wird erst zurückgefallen, wenn:
 * der Versand **nicht über Express** gewählt wird,
-* der Warenkorb **nicht über 2000kg** liegt, und demnach nicht kostenlos ist,
+* der Warenkorb **nicht über 2000 kg** liegt, und demnach nicht kostenlos ist,
 * und der Versand **nicht die EU verlässt**.
 
-Sollten diese Regeln nicht zugreifen, bleibt also nur noch der Standard-EU Versand. Dieser berechnet 200€ Versand für jeden Artikel der **weniger als 1000kg wiegt (Teil 1)** und 100€ Versand für jeden Artikel der **genau 1000kg wiegt (Teil 2)**.
+Sollten diese Regeln nicht zugreifen, bleibt also nur noch der Standard-EU Versand. Dieser berechnet 200 € Versand für jeden Artikel der **weniger als 1000 kg wiegt (Teil 1)** und 100 € Versand für jeden Artikel der **genau 1000 kg wiegt (Teil 2)**.
 
 Dies deckt alle Möglichkeiten ab, die in diesem Beispiel behandelt werden sollten.
 
